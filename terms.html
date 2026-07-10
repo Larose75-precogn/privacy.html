@@ -18,37 +18,51 @@
         }
         header {
             background-color: #fff;
-            padding: 20px;
+            padding: 20px 40px;
             display: flex;
             justify-content: space-between;
             align-items: center;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
+        header h1 {
+            margin: 0;
+            color: #2c3e50;
+            flex: 1;
+        }
         .logo {
-            height: 60px;
+            height: 70px;
             width: auto;
+            margin-left: 20px;
         }
         .container {
             max-width: 900px;
             margin: 30px auto;
-            padding: 20px;
+            padding: 40px;
             background-color: #fff;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
             border-radius: 5px;
         }
-        h1 {
-            color: #2c3e50;
-            border: none;
-            padding: 0;
-            margin: 0;
-        }
         h2 {
             color: #34495e;
             margin-top: 30px;
+            margin-bottom: 15px;
         }
         .last-updated {
             color: #7f8c8d;
             font-style: italic;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 12px;
+            text-align: justify;
         }
         .highlight {
             background: #f8f9fa;
@@ -56,12 +70,22 @@
             border-left: 4px solid #e74c3c;
             margin: 20px 0;
         }
+        .highlight p {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Conditions d'utilisation</h1>
-        <img src="https://raw.githubusercontent.com/Larose75-precogn/SheetToCsv/main/logo.png" alt="Structory Logo" class="logo">
+        <img src="https://raw.githubusercontent.com/Larose75-precogn/SheetToCsv/main/logo.svg" alt="Structory Logo" class="logo">
     </header>
 
     <div class="container">
@@ -75,9 +99,9 @@
 
         <h2>3. Licences et paiements</h2>
         <div class="highlight">
-            <p><strong>🔓 Version d'essai</strong> : Période d'essai gratuite de 7 jours, limitée à 2 feuilles par conversion.</p>
-            <p><strong>⭐ Version Premium</strong> : Accès illimité via un abonnement payant géré par Stripe.</p>
-            <p><strong>💳 Paiements</strong> : Tous les paiements sont traités par Stripe. Aucune information bancaire n'est stockée par nos soins.</p>
+            <p><strong>🔓 Version d'essai :</strong> Période d'essai gratuite de 7 jours, limitée à 2 feuilles par conversion.</p>
+            <p><strong>⭐ Version Premium :</strong> Accès illimité via un abonnement payant géré par Stripe.</p>
+            <p><strong>💳 Paiements :</strong> Tous les paiements sont traités par Stripe. Aucune information bancaire n'est stockée par nos soins.</p>
         </div>
 
         <h2>4. Utilisation autorisée</h2>
@@ -118,7 +142,7 @@
 
         <h2>10. Contact</h2>
         <p>Pour toute question concernant ces conditions, contactez-nous à :</p>
-        <p><strong>Email</strong> : <a href="mailto:larose75@9l9.org">larose75@9l9.org</a></p>
+        <p><strong>Email :</strong> <a href="mailto:larose75@9l9.org">larose75@9l9.org</a></p>
 
         <hr style="margin-top: 30px; margin-bottom: 20px;">
         <p style="text-align: center;"><strong>En utilisant SheetToCsv Premium, vous acceptez ces conditions d'utilisation.</strong></p>
